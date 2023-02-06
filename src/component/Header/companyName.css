@@ -1,0 +1,11 @@
+.company-name-body{
+    background-image: url("https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131_960_720.jpg");
+    height:400px;
+    display: grid;
+    place-content: center;
+}
+
+.company-name, .company-det{
+    text-align: center;
+}
+

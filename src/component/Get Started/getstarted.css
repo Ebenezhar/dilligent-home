@@ -1,0 +1,31 @@
+.get-started-body{
+    height:400px;
+    margin:50px 300px;
+    /* background-color: cadetblue; */
+    display: flex;
+    flex-direction: row;
+}
+
+.get-started-picture{
+    width: 35%;
+    overflow: hidden;
+}
+
+.get-started-buttons{
+    margin :5px 30px;
+    padding: 10px;
+}
+
+.get-started-button{
+    cursor: pointer;
+    width: 50px;
+    height: 7px;
+    border:0;   
+    margin:5px;
+    border-radius: 10px;
+    background-color: green;
+}
+
+.get-started-content{
+    width: 65%;  
+}
