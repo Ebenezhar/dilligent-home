@@ -6,6 +6,7 @@ import GetStarted from '../component/Get Started/GetStarted'
 import AboutUs from '../component/About Us/AboutUs'
 import Help from '../component/Help/Help'
 import Footer from '../component/Footer/Footer'
+import { Link } from 'react-router-dom'
 
 function HomePage() {
     return (
@@ -22,6 +23,7 @@ function HomePage() {
                 <Help />
             </section>
             <Footer />
+            <Link to="popup" className="btn btn-primary text-center">Pop up</Link>
         </div>
     )
 }

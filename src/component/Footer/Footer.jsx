@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './footer.css'
 
 function footer() {
@@ -55,6 +56,7 @@ function footer() {
                     <p><i className="fa-regular fa-envelope-open  icons-contact"></i> asdfgas@asd.com</p>
                 </div>
             </div>
+
         </div>
     )
 }
