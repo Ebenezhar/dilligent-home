@@ -1,0 +1,14 @@
+.help-body{
+    background-color: green;
+    padding: 50px;
+    text-align: center;
+}
+
+.help-body-head {
+    color:aliceblue;
+    font-weight: bold;
+}
+.help-body-para{
+    color: black;
+}
+

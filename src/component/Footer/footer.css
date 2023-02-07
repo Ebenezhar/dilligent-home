@@ -1,0 +1,60 @@
+.footer-body{
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    padding: 40px 150px;
+    color: white;
+}
+
+.logo-body {
+    width: 40%;
+    padding: 5px;
+}
+
+.quick-links-body, .features-body, .getin-touch-body{
+    padding: 5px;
+    width: 20%;
+}
+
+.quick-links-list-head{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 5px;
+    font-size: 14px;
+}
+.quick-links-list-content {
+    padding: 5px 5px;
+    font-weight: bold;
+    
+}
+.icons-contact{
+    color:green;
+    padding: 5px;
+}
+
+.contact-logo{
+    width:40px;
+    height:40px;
+    color: green;
+    border: 1px solid green ;
+    display: grid;
+    place-content: center;
+    margin:5px 10px;
+}
+
+.contact-logo-body{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.conact-content{
+    font-weight: bold;
+}
+
+.quick-links-list-content::before {
+    content: ">";
+    margin-right: 10px;
+    font-weight: bolder;
+    color:green;
+}
